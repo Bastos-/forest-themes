@@ -1,5 +1,5 @@
  /*
- * # Semantic UI - 2.2.10
+ * # Semantic UI - 2.2.9
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -9,7 +9,7 @@
  *
  */
 /*!
- * # Semantic UI 2.2.10 - Reset
+ * # Semantic UI 2.2.9 - Reset
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -495,7 +495,7 @@ th {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Site
+ * # Semantic UI 2.2.9 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -684,7 +684,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Button
+ * # Semantic UI 2.2.9 - Button
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -705,7 +705,7 @@ input::selection {
   border: none;
   vertical-align: baseline;
   background: #95a5a6 none;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.73333333em 1.5em 0.73333333em;
@@ -717,7 +717,7 @@ input::selection {
   text-align: center;
   text-decoration: none;
   border-radius: 0.26666667rem;
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+  box-shadow: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -737,10 +737,10 @@ input::selection {
 ---------------*/
 
 .ui.button:hover {
-  background-color: #CACBCD;
+  background-color: #798d8f;
   background-image: none;
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-  color: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+  color: #fff;
 }
 
 .ui.button:hover .icon {
@@ -752,7 +752,7 @@ input::selection {
 ---------------*/
 
 .ui.button:focus {
-  background-color: #CACBCD;
+  background-color: #798d8f;
   color: rgba(0, 0, 0, 0.8);
   background-image: '' !important;
   box-shadow: '' !important;
@@ -768,9 +768,9 @@ input::selection {
 
 .ui.button:active,
 .ui.active.button:active {
-  background-color: #BABBBC;
+  background-color: #798d8f;
   background-image: '';
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
   box-shadow: 0px 0px 0px 1px transparent inset, none;
 }
 
@@ -779,20 +779,20 @@ input::selection {
 ---------------*/
 
 .ui.active.button {
-  background-color: #C0C1C2;
+  background-color: #798d8f;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset;
-  color: #000;
+  color: #fff;
 }
 
 .ui.active.button:hover {
-  background-color: #C0C1C2;
+  background-color: #798d8f;
   background-image: none;
-  color: #000;
+  color: #fff;
 }
 
 .ui.active.button:active {
-  background-color: #C0C1C2;
+  background-color: #798d8f;
   background-image: none;
 }
 
@@ -1080,7 +1080,7 @@ input::selection {
 .ui.inverted.button:hover {
   background: #FFFFFF;
   box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 /* Active / Focus */
@@ -1479,12 +1479,12 @@ input::selection {
 .ui.basic.buttons .button,
 .ui.basic.button {
   background: transparent none !important;
-  color: rgba(0, 0, 0, 0.6) !important;
+  color: #7b8a8b !important;
   font-weight: normal;
   border-radius: 0.26666667rem;
   text-transform: none;
   text-shadow: none !important;
-  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  box-shadow: none;
 }
 
 .ui.basic.buttons {
@@ -1499,21 +1499,21 @@ input::selection {
 
 .ui.basic.buttons .button:hover,
 .ui.basic.button:hover {
-  background: #FFFFFF !important;
+  background: #fff !important;
   color: rgba(0, 0, 0, 0.8) !important;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
 .ui.basic.buttons .button:focus,
 .ui.basic.button:focus {
-  background: #FFFFFF !important;
+  background: #fff !important;
   color: rgba(0, 0, 0, 0.8) !important;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
 .ui.basic.buttons .button:active,
 .ui.basic.button:active {
-  background: #F8F8F8 !important;
+  background: #fff !important;
   color: rgba(0, 0, 0, 0.9) !important;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(34, 36, 38, 0.15) inset;
 }
@@ -1523,6 +1523,7 @@ input::selection {
   background: rgba(0, 0, 0, 0.05) !important;
   box-shadow: '' !important;
   color: #000;
+  box-shadow: rgba(34, 36, 38, 0.35);
 }
 
 .ui.basic.buttons .active.button:hover,
@@ -1541,7 +1542,7 @@ input::selection {
 }
 
 .ui.basic.buttons .active.button {
-  box-shadow: '' !important;
+  box-shadow: rgba(34, 36, 38, 0.35) inset;
 }
 
 /* Standard Basic Inverted */
@@ -2340,7 +2341,7 @@ input::selection {
 .ui.inverted.grey.buttons .button:active,
 .ui.inverted.grey.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 .ui.inverted.grey.buttons .button:hover,
@@ -3798,7 +3799,7 @@ input::selection {
 .ui.inverted.teal.buttons .button:active,
 .ui.inverted.teal.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 .ui.inverted.teal.buttons .button:hover,
@@ -3960,7 +3961,7 @@ input::selection {
 .ui.inverted.olive.buttons .button:active,
 .ui.inverted.olive.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 .ui.inverted.olive.buttons .button:hover,
@@ -4122,7 +4123,7 @@ input::selection {
 .ui.inverted.yellow.buttons .button:active,
 .ui.inverted.yellow.button:active {
   box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 .ui.inverted.yellow.buttons .button:hover,
@@ -4192,7 +4193,7 @@ input::selection {
 .ui.primary.buttons .button,
 .ui.primary.button {
   background-color: #2C3E50;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
@@ -4204,21 +4205,21 @@ input::selection {
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
   background-color: #223141;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
   background-color: #1b2a38;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
   background-color: #1a242f;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4227,7 +4228,7 @@ input::selection {
 .ui.primary.active.button,
 .ui.primary.button .active.button:active {
   background-color: #213142;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4366,7 +4367,7 @@ input::selection {
 .ui.positive.buttons .button,
 .ui.positive.button {
   background-color: #18BC9C;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
@@ -4378,21 +4379,21 @@ input::selection {
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover {
   background-color: #0ead8e;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus {
   background-color: #06a586;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:active,
 .ui.positive.button:active {
   background-color: #128f76;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4401,7 +4402,7 @@ input::selection {
 .ui.positive.active.button,
 .ui.positive.button .active.button:active {
   background-color: #0ab090;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4453,7 +4454,7 @@ input::selection {
 .ui.negative.buttons .button,
 .ui.negative.button {
   background-color: #E74C3C;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
   background-image: none;
 }
@@ -4465,21 +4466,21 @@ input::selection {
 .ui.negative.buttons .button:hover,
 .ui.negative.button:hover {
   background-color: #ee2f1c;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:focus,
 .ui.negative.button:focus {
   background-color: #f21e08;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
   background-color: #d62c1a;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4488,7 +4489,7 @@ input::selection {
 .ui.negative.active.button,
 .ui.negative.button .active.button:active {
   background-color: #f32c17;
-  color: #fff;
+  color: #FFFFFF;
   text-shadow: none;
 }
 
@@ -4575,7 +4576,7 @@ input::selection {
 
 .ui.buttons > .ui.button:not(.basic):not(.inverted),
 .ui.buttons:not(.basic):not(.inverted) > .button {
-  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+  box-shadow: none;
 }
 
 .ui.buttons .button:first-child {
@@ -4626,36 +4627,21 @@ input::selection {
   border-radius: 0.26666667rem;
 }
 
-.ui.button {
-  border: #95a5a6;
-  border-width: 2px;
-}
-
-.ui.button.primary {
-  border: #2C3E50;
-}
-
-.ui.button.positive {
-  border: #18BC9C;
-}
-
-.ui.button.negative {
-  border: #E74C3C;
-}
-
-.ui.button:active {
+.ui.basic.buttons .button:hover,
+.ui.basic.button:hover {
+  text-decoration: underline;
   box-shadow: none;
 }
 
-.ui.buttons .dropdown {
-  box-shadow: none;
+.ui.inverted.button:hover {
+  background: #222222;
 }
 
 /*******************************
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Container
+ * # Semantic UI 2.2.9 - Container
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -4816,7 +4802,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Divider
+ * # Semantic UI 2.2.9 - Divider
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5083,7 +5069,7 @@ input::selection {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Flag
+ * # Semantic UI 2.2.9 - Flag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -6354,7 +6340,7 @@ i.flag.zimbabwe:before {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Header
+ * # Semantic UI 2.2.9 - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -7175,7 +7161,7 @@ a.ui.inverted.grey.header:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Icon
+ * # Semantic UI 2.2.9 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11425,7 +11411,7 @@ i.icon.times.rectangle.outline:before {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Image
+ * # Semantic UI 2.2.9 - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11742,7 +11728,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Input
+ * # Semantic UI 2.2.9 - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11778,9 +11764,9 @@ img.ui.bordered.image {
   outline: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
-  line-height: 45px;
+  line-height: 1.21428571em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: -21.26666667em 0.93333333em;
+  padding: 1.39285714em 0.93333333em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: #2c3e50;
@@ -11881,7 +11867,7 @@ img.ui.bordered.image {
 .ui.input input:focus {
   border-color: #2C3E50;
   background: #FFFFFF;
-  color: rgba(0, 0, 0, 0.8);
+  color: black;
   box-shadow: none;
 }
 
@@ -12005,7 +11991,7 @@ img.ui.bordered.image {
   right: 0px;
   margin: 0em;
   height: 100%;
-  width: 2.56666667em;
+  width: 4.1em;
   opacity: 0.5;
   border-radius: 0em 0.26666667rem 0.26666667rem 0em;
   -webkit-transition: opacity 0.3s ease;
@@ -12017,7 +12003,7 @@ img.ui.bordered.image {
 }
 
 .ui.icon.input input {
-  padding-right: 2.56666667em !important;
+  padding-right: 4.1em !important;
 }
 
 .ui.icon.input > i.icon:before,
@@ -12053,7 +12039,7 @@ img.ui.bordered.image {
 }
 
 .ui[class*="left icon"].input > input {
-  padding-left: 2.56666667em !important;
+  padding-left: 4.1em !important;
   padding-right: 0.93333333em !important;
 }
 
@@ -12078,8 +12064,8 @@ img.ui.bordered.image {
 }
 
 .ui.labeled.input > .label:not(.corner) {
-  padding-top: 0.73333333em;
-  padding-bottom: 0.73333333em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 /* Regular Label on Left */
@@ -12184,8 +12170,8 @@ img.ui.bordered.image {
 
 .ui.action.input > .button,
 .ui.action.input > .buttons > .button {
-  padding-top: 0.73333333em;
-  padding-bottom: 0.73333333em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   margin: 0;
 }
 
@@ -12298,14 +12284,14 @@ img.ui.bordered.image {
 }
 
 .ui.labeled.input:not(.corner) .label {
-  line-height: 45px;
+  line-height: 1.21428571em;
 }
 
 /*******************************
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Label
+ * # Semantic UI 2.2.9 - Label
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -12777,15 +12763,15 @@ a.ui.label {
 
 a.ui.labels .label:hover,
 a.ui.label:hover {
-  background-color: #E0E0E0;
-  border-color: #E0E0E0;
+  background-color: #233140;
+  border-color: #233140;
   background-image: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: #95a5a6;
 }
 
 .ui.labels a.label:hover:before,
 a.ui.label:hover:before {
-  color: rgba(0, 0, 0, 0.8);
+  color: #95a5a6;
 }
 
 /*-------------------
@@ -13730,7 +13716,7 @@ a.ui.basic.label:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - List
+ * # Semantic UI 2.2.9 - List
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14856,7 +14842,7 @@ ol.ui.horizontal.list li:before,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Loader
+ * # Semantic UI 2.2.9 - Loader
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15234,7 +15220,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Rail
+ * # Semantic UI 2.2.9 - Rail
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15396,7 +15382,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Reveal
+ * # Semantic UI 2.2.9 - Reveal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15701,7 +15687,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Segment
+ * # Semantic UI 2.2.9 - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15717,11 +15703,11 @@ ol.ui.horizontal.list li:before,
 .ui.segment {
   position: relative;
   background: #FFFFFF;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 #ecf0f1;
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.26666667rem;
-  border: #ecf0f1;
+  border: 1px solid #ecf0f1;
 }
 
 .ui.segment:first-child {
@@ -15742,7 +15728,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid #ecf0f1;
 }
 
 .ui.vertical.segment:last-child {
@@ -15799,8 +15785,8 @@ ol.ui.horizontal.list li:before,
 
 .ui.basic.table.segment {
   background: #FFFFFF;
-  border: #ecf0f1;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border: 1px solid #ecf0f1;
+  box-shadow: 0px 1px 2px 0 #ecf0f1;
 }
 
 .ui[class*="very basic"].table.segment {
@@ -15842,7 +15828,7 @@ ol.ui.horizontal.list li:before,
   left: 0px;
   position: absolute;
   width: 100%;
-  border: #ecf0f1;
+  border: 1px solid #ecf0f1;
   box-shadow: '';
 }
 
@@ -15898,8 +15884,8 @@ ol.ui.horizontal.list li:before,
   position: absolute;
   bottom: -3px;
   left: 0%;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
-  background: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid #ecf0f1;
+  background: #f2f2f2;
   width: 100%;
   height: 6px;
   visibility: visible;
@@ -16006,8 +15992,8 @@ ol.ui.horizontal.list li:before,
   flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: #ecf0f1;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border: 1px solid #ecf0f1;
+  box-shadow: 0px 1px 2px 0 #ecf0f1;
   border-radius: 0.26666667rem;
 }
 
@@ -16029,7 +16015,7 @@ ol.ui.horizontal.list li:before,
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: #ecf0f1;
+  border-top: 1px solid #ecf0f1;
 }
 
 .ui.segments:not(.horizontal) > .segment:first-child {
@@ -16048,7 +16034,7 @@ ol.ui.horizontal.list li:before,
   bottom: 0px;
   margin-top: 0em;
   margin-bottom: 0em;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  box-shadow: 0px 1px 2px 0 #ecf0f1, none;
   border-radius: 0em 0em 0.26666667rem 0.26666667rem;
 }
 
@@ -16061,7 +16047,7 @@ ol.ui.horizontal.list li:before,
 /* Nested Group */
 
 .ui.segments > .ui.segments {
-  border-top: #ecf0f1;
+  border-top: 1px solid #ecf0f1;
   margin: 1rem 1rem;
 }
 
@@ -16087,10 +16073,10 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   padding: 0em;
   background-color: #FFFFFF;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 #ecf0f1;
   margin: 1rem 0em;
   border-radius: 0.26666667rem;
-  border: #ecf0f1;
+  border: 1px solid #ecf0f1;
 }
 
 /* Nested Horizontal Group */
@@ -16101,7 +16087,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: #ecf0f1;
+  border-top: 1px solid #ecf0f1;
 }
 
 /* Horizontal Segment */
@@ -16117,7 +16103,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
 }
 
 /* Border Fixes */
@@ -16494,7 +16480,7 @@ ol.ui.horizontal.list li:before,
   width: calc(100% +  2px );
   max-width: calc(100% +  2px );
   box-shadow: none;
-  border: 1px solid #D4D4D5;
+  border: 1px solid #ecf0f1;
 }
 
 .ui.attached:not(.message) + .ui.attached.segment:not(.top) {
@@ -16522,7 +16508,7 @@ ol.ui.horizontal.list li:before,
   margin-top: 0em;
   top: 0px;
   margin-bottom: 1rem;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  box-shadow: 0px 1px 2px 0 #ecf0f1, none;
   border-radius: 0em 0em 0.26666667rem 0.26666667rem;
 }
 
@@ -16574,17 +16560,10 @@ ol.ui.horizontal.list li:before,
   font-size: 1.73333333rem;
 }
 
-.ui.segment * {
-  border-color: #ecf0f1;
-}
-
-.ui.segment .close {
-  color: #2c3e50;
-}
-
-.ui.piled.segment:before,
-.ui.stacked.segment:before,
-.ui.piled.segment:after {
+.ui.piled.segments:after,
+.ui.piled.segments:before,
+.ui.piled.segment:after,
+.ui.piled.segment:before {
   background-color: #f2f2f2;
 }
 
@@ -16592,7 +16571,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Step
+ * # Semantic UI 2.2.9 - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16664,7 +16643,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em;
   padding: 1.13333333em 2em;
   background: #2C3E50;
-  color: #2c3e50;
+  color: #d9d9d9;
   box-shadow: none;
   border-radius: 0em;
   border: none;
@@ -16958,7 +16937,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
   background: #273646;
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 /* Link Down */
@@ -16988,7 +16967,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
-  color: rgba(0, 0, 0, 0.85);
+  color: #FFFFFF;
 }
 
 /* Active Arrow */
@@ -17016,8 +16995,8 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.active.step:hover::after,
 .ui.steps a.active.step:hover {
   cursor: pointer;
-  background: #11181f;
-  color: #2c3e50;
+  background: #000000;
+  color: #d9d9d9;
 }
 
 /* Completed */
@@ -17279,7 +17258,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Breadcrumb
+ * # Semantic UI 2.2.9 - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17411,7 +17390,7 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Form
+ * # Semantic UI 2.2.9 - Form
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17800,7 +17779,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="file"]:focus,
 .ui.form input[type="url"]:focus {
   color: #000;
-  border-color: #85B7D9;
+  border-color: #222222;
   border-radius: 0.26666667rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
@@ -17808,7 +17787,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form textarea:focus {
   color: #000;
-  border-color: #85B7D9;
+  border-color: #222222;
   border-radius: 0.26666667rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
@@ -18647,7 +18626,7 @@ input *:focus,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Grid
+ * # Semantic UI 2.2.9 - Grid
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -21269,14 +21248,14 @@ input *:focus,
 
 .ui.menu .item > .label {
   background: #18BC9C;
-  color: #FFFFFF;
+  color: #fff;
   margin-left: 1em;
   padding: 0.3em 0.8em;
 }
 
 .ui.vertical.menu .item > .label {
   background: #18BC9C;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: -0.15em;
   margin-bottom: -0.15em;
   padding: 0.3em 0.8em;
@@ -21353,7 +21332,7 @@ input *:focus,
 .ui.menu .link.item:hover,
 .ui.menu a.item:hover {
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.03);
+  background: #233140;
   color: #18BC9C;
 }
 
@@ -21389,8 +21368,8 @@ input *:focus,
 
 .ui.menu .active.item:hover,
 .ui.vertical.menu .active.item:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  color: #b4bcc2;
+  background-color: #11181f;
+  color: #fff;
 }
 
 /*--------------
@@ -21450,7 +21429,7 @@ Floated Menu / Item
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: #FFFFFF;
+  background: #2C3E50;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 
@@ -21556,7 +21535,7 @@ Floated Menu / Item
 .ui.vertical.menu .item .menu .active.item {
   background-color: transparent;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 
 /*--------------
@@ -21593,7 +21572,7 @@ Floated Menu / Item
 
 .ui.tabular.menu .item:hover {
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.8);
+  color: #262626;
 }
 
 /* Active */
@@ -21911,7 +21890,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu {
   margin-left: 0em;
   margin-right: 0em;
-  border-bottom: 2px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 2px solid #b4bcc2;
 }
 
 .ui.secondary.pointing.menu .item {
@@ -21956,7 +21935,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .link.item:active,
 .ui.secondary.pointing.menu a.item:active {
   background-color: transparent;
-  border-color: rgba(34, 36, 38, 0.15);
+  border-color: #b4bcc2;
 }
 
 /* Active */
@@ -21964,7 +21943,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .active.item {
   background-color: transparent;
   box-shadow: none;
-  border-color: #1B1C1D;
+  border-color: #2C3E50;
   font-weight: bold;
   color: #000;
 }
@@ -21972,7 +21951,7 @@ Floated Menu / Item
 /* Active Hover */
 
 .ui.secondary.pointing.menu .active.item:hover {
-  border-color: #1B1C1D;
+  border-color: #2C3E50;
   color: #000;
 }
 
@@ -21988,7 +21967,7 @@ Floated Menu / Item
   border-bottom-width: 0px;
   border-right-width: 2px;
   border-right-style: solid;
-  border-right-color: rgba(34, 36, 38, 0.15);
+  border-right-color: #b4bcc2;
 }
 
 .ui.secondary.vertical.pointing.menu .item {
@@ -22003,7 +21982,7 @@ Floated Menu / Item
 /* Vertical Active */
 
 .ui.secondary.vertical.pointing.menu .active.item {
-  border-color: #1B1C1D;
+  border-color: #2C3E50;
 }
 
 /* Inverted */
@@ -22014,7 +21993,7 @@ Floated Menu / Item
 
 .ui.secondary.inverted.pointing.menu {
   border-width: 2px;
-  border-color: rgba(34, 36, 38, 0.15);
+  border-color: #b4bcc2;
 }
 
 .ui.secondary.inverted.pointing.menu .item {
@@ -22060,7 +22039,7 @@ Floated Menu / Item
   margin: 0em 0em;
   padding: 0.33333333em 0.46666667em;
   font-weight: normal;
-  color: #b4bcc2;
+  color: #b3b3b3;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
 }
@@ -23154,63 +23133,14 @@ Floated Menu / Item
   width: 25rem;
 }
 
-.ui.inverted.menu .label:hover {
-  color: #2c3e50;
+.ui.menu .item .input {
+  color: #b4bcc2;
 }
 
-.ui.pagination.menu {
-  color: #fff;
-  background-color: #18BC9C;
-  border-color: transparent;
-}
-
-.ui.pagination.menu .item:hover {
-  color: #fff;
-  background-color: #0f7864;
-  border-color: transparent;
-}
-
-.ui.pagination.menu .item.active {
-  border-color: transparent;
-}
-
-.ui.menu {
-  border-width: 0;
-}
-
-.ui.menu .label {
-  background-color: #fff;
-  color: #2C3E50;
-}
-
-.ui.menu.inverted .label {
-  background-color: #fff;
-  color: #18BC9C;
-}
-
-.ui.menu .dropdown > a,
-.ui.menu .dropdown > a:hover,
-.ui.menu .dropdown > a:focus {
-  border-color: transparent;
-}
-
-.ui.menu.pagination a,
-.ui.menu.pagination a:hover {
+.ui.menu .item .input input {
   color: #fff;
 }
 
-.ui.menu.pagination .disabled > a,
-.ui.menu.pagination .disabled > a:hover,
-.ui.menu.pagination .disabled > a:focus,
-.ui.menu.pagination .disabled > span {
-  background-color: #3be6c4;
-}
-
-.ui.rail .ui.vertical.menu .active.item {
-  color: #000;
-}
-
-.ui.vertical.menu .item,
 .ui.secondary.menu .item {
   color: #b4bcc2;
 }
@@ -23219,7 +23149,7 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Message
+ * # Semantic UI 2.2.9 - Message
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -23236,14 +23166,14 @@ Floated Menu / Item
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #F8F8F9;
+  background: #f2f2f2;
   padding: 1em 1.5em;
   line-height: 1.4285em;
-  color: #2c3e50;
+  color: #000;
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.26666667rem;
-  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: none;
 }
 
 .ui.message:first-child {
@@ -23547,7 +23477,7 @@ Floated Menu / Item
 }
 
 .ui.info.message .header {
-  color: #0E566C;
+  color: #fff;
 }
 
 /* Warning */
@@ -23563,7 +23493,7 @@ Floated Menu / Item
 }
 
 .ui.warning.message .header {
-  color: #794B02;
+  color: #fff;
 }
 
 /* Error */
@@ -23579,7 +23509,7 @@ Floated Menu / Item
 }
 
 .ui.error.message .header {
-  color: #912D2B;
+  color: #fff;
 }
 
 /* Success */
@@ -23595,7 +23525,7 @@ Floated Menu / Item
 }
 
 .ui.success.message .header {
-  color: #1A531B;
+  color: #fff;
 }
 
 /* Colors */
@@ -23753,12 +23683,10 @@ Floated Menu / Item
 }
 
 .ui.message {
-  box-shadow: none !important;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
 }
 
 .ui.message a {
-  color: #fff;
   text-decoration: underline;
 }
 
@@ -23766,7 +23694,7 @@ Floated Menu / Item
         Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Table
+ * # Semantic UI 2.2.9 - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -23785,7 +23713,7 @@ Floated Menu / Item
   width: 100%;
   background: #FFFFFF;
   margin: 1em 0em;
-  border: #ecf0f1;
+  border: 1px solid #ecf0f1;
   box-shadow: none;
   border-radius: 0.26666667rem;
   text-align: left;
@@ -23830,7 +23758,7 @@ Floated Menu / Item
   font-style: none;
   font-weight: bold;
   text-transform: none;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-bottom: 0px solid rgba(34, 36, 38, 0.1);
   border-left: none;
 }
 
@@ -23858,7 +23786,7 @@ Floated Menu / Item
 
 .ui.table tfoot th {
   cursor: auto;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 0px solid #ecf0f1;
   background: #F9FAFB;
   text-align: inherit;
   color: #2c3e50;
@@ -23888,7 +23816,7 @@ Floated Menu / Item
 /* Table Row */
 
 .ui.table tr td {
-  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  border-top: 0px solid rgba(34, 36, 38, 0.1);
 }
 
 .ui.table tr:first-child td {
@@ -24010,8 +23938,8 @@ Floated Menu / Item
 }
 
 .ui.structured.sortable.table thead th {
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
-  border-right: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
+  border-right: 1px solid #ecf0f1;
 }
 
 .ui.structured.basic.table th {
@@ -24073,15 +24001,15 @@ Floated Menu / Item
 /* Fix 2nd Column */
 
 .ui.definition.table thead:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
 }
 
 .ui.definition.table tfoot:not(.full-width) th:nth-child(2) {
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
 }
 
 .ui.definition.table td:nth-child(2) {
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
 }
 
 /*******************************
@@ -24172,7 +24100,7 @@ Floated Menu / Item
 .ui.table tr.disabled:hover,
 .ui.table tr:hover td.disabled {
   pointer-events: none;
-  color: #ecf0f1;
+  color: #b4bcc2;
 }
 
 /*******************************
@@ -24748,7 +24676,7 @@ Floated Menu / Item
 .ui.sortable.table thead th {
   cursor: pointer;
   white-space: nowrap;
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 1px solid #ecf0f1;
   color: #2c3e50;
 }
 
@@ -24789,7 +24717,7 @@ Floated Menu / Item
 
 .ui.sortable.table th.disabled:hover {
   cursor: auto;
-  color: #ecf0f1;
+  color: #b4bcc2;
 }
 
 .ui.sortable.table thead th:hover {
@@ -24890,7 +24818,7 @@ Floated Menu / Item
 
 .ui.basic.table {
   background: transparent;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 0px solid #ecf0f1;
   box-shadow: none;
 }
 
@@ -25026,89 +24954,19 @@ Floated Menu / Item
   font-size: 1.1em;
 }
 
-table a:not(.button),
-.table a:not(.button) {
+.ui.table a:not(.button) {
   text-decoration: underline;
 }
 
-table .dropdown a,
-.table .dropdown a {
+.ui.table .dropdown a {
   text-decoration: none;
-}
-
-table .positive,
-.table .positive,
-table .warning,
-.table .warning,
-table .negative,
-.table .negative,
-table .info,
-.table .info {
-  color: #fff;
-}
-
-table .positive > th > a,
-.table .positive > th > a,
-table .warning > th > a,
-.table .warning > th > a,
-table .negative > th > a,
-.table .negative > th > a,
-table .info > th > a,
-.table .info > th > a,
-table .positive > td > a,
-.table .positive > td > a,
-table .warning > td > a,
-.table .warning > td > a,
-table .negative > td > a,
-.table .negative > td > a,
-table .info > td > a,
-.table .info > td > a,
-table .positive > a,
-.table .positive > a,
-table .warning > a,
-.table .warning > a,
-table .negative > a,
-.table .negative > a,
-table .info > a,
-.table .info > a {
-  color: #fff;
-}
-
-table > thead > tr > th,
-.table > thead > tr > th,
-table > tbody > tr > th,
-.table > tbody > tr > th,
-table > tfoot > tr > th,
-.table > tfoot > tr > th,
-table > thead > tr > td,
-.table > thead > tr > td,
-table > tbody > tr > td,
-.table > tbody > tr > td,
-table > tfoot > tr > td,
-.table > tfoot > tr > td {
-  border: none;
-}
-
-table.celled > thead > tr > th,
-.table.celled > thead > tr > th,
-table.celled > tbody > tr > th,
-.table.celled > tbody > tr > th,
-table.celled > tfoot > tr > th,
-.table.celled > tfoot > tr > th,
-table.celled > thead > tr > td,
-.table.celled > thead > tr > td,
-table.celled > tbody > tr > td,
-.table.celled > tbody > tr > td,
-table.celled > tfoot > tr > td,
-.table.celled > tfoot > tr > td {
-  border: 1px solid #ecf0f1;
 }
 
 /*******************************
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Ad
+ * # Semantic UI 2.2.9 - Ad
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -25397,7 +25255,7 @@ table.celled > tfoot > tr > td,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Item
+ * # Semantic UI 2.2.9 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26235,7 +26093,7 @@ a.ui.card:hover,
     margin-right: 0em;
   }
 
-  .ui.two.doubling.cards > .card {
+  .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
@@ -26246,7 +26104,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.three.doubling.cards > .card {
+  .ui.three.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26257,7 +26115,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.four.doubling.cards > .card {
+  .ui.four.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26268,7 +26126,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.five.doubling.cards > .card {
+  .ui.five.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26279,7 +26137,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.six.doubling.cards > .card {
+  .ui.six.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26290,7 +26148,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.seven.doubling.cards > .card {
+  .ui.seven.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26301,7 +26159,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.eight.doubling.cards > .card {
+  .ui.eight.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26312,7 +26170,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.nine.doubling.cards > .card {
+  .ui.nine.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26323,7 +26181,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.ten.doubling.cards > .card {
+  .ui.ten.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26338,7 +26196,7 @@ a.ui.card:hover,
     margin-right: 0em;
   }
 
-  .ui.two.doubling.cards > .card {
+  .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
@@ -26349,7 +26207,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.three.doubling.cards > .card {
+  .ui.three.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26360,7 +26218,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.four.doubling.cards > .card {
+  .ui.four.doubling.cards .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26371,7 +26229,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.five.doubling.cards > .card {
+  .ui.five.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26382,7 +26240,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.six.doubling.cards > .card {
+  .ui.six.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26393,7 +26251,7 @@ a.ui.card:hover,
     margin-right: -1em;
   }
 
-  .ui.eight.doubling.cards > .card {
+  .ui.eight.doubling.cards .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -26404,7 +26262,7 @@ a.ui.card:hover,
     margin-right: -0.75em;
   }
 
-  .ui.eight.doubling.cards > .card {
+  .ui.eight.doubling.cards .card {
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -26415,7 +26273,7 @@ a.ui.card:hover,
     margin-right: -0.75em;
   }
 
-  .ui.nine.doubling.cards > .card {
+  .ui.nine.doubling.cards .card {
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -26426,7 +26284,7 @@ a.ui.card:hover,
     margin-right: -0.75em;
   }
 
-  .ui.ten.doubling.cards > .card {
+  .ui.ten.doubling.cards .card {
     width: calc( 20%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -26471,7 +26329,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Comment
+ * # Semantic UI 2.2.9 - Comment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26756,7 +26614,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Feed
+ * # Semantic UI 2.2.9 - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -27070,7 +26928,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Item
+ * # Semantic UI 2.2.9 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -27590,7 +27448,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Statistic
+ * # Semantic UI 2.2.9 - Statistic
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -28226,7 +28084,7 @@ a.ui.card:hover,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Accordion
+ * # Semantic UI 2.2.9 - Accordion
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -28455,28 +28313,25 @@ a.ui.card:hover,
   color: rgba(255, 255, 255, 0.9);
 }
 
-.ui.vertical.accordion.menu {
-  box-shadow: none !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+.ui.vertical.accordion.menu:not(.following) * {
+  color: #e6e6e6;
 }
 
-.ui.vertical.accordion.menu .item:first-child {
-  border: none;
+.ui.vertical.accordion.menu:not(.following) *:hover {
+  color: #cccccc;
 }
 
-.ui.vertical.accordion.menu .item {
-  border-top: 1px solid rgba(0, 0, 0, 0);
-}
-
-.ui.rail .ui.vertical.accordion.menu {
-  border: none !important;
+.ui.vertical.accordion.menu:not(.following) *:active,
+.ui.vertical.accordion.menu:not(.following) *.checked,
+.ui.vertical.accordion.menu:not(.following) *.active {
+  color: #FFFFFF;
 }
 
 /*******************************
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Checkbox
+ * # Semantic UI 2.2.9 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29144,7 +28999,7 @@ a.ui.card:hover,
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Dimmer
+ * # Semantic UI 2.2.9 - Dimmer
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29352,7 +29207,7 @@ body.dimmable > .dimmer {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Dropdown
+ * # Semantic UI 2.2.9 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29985,7 +29840,7 @@ select.ui.dropdown {
 }
 
 .ui.active.search.dropdown input.search:focus + .text {
-  color: #2C3E50 !important;
+  color: #fff !important;
 }
 
 /* Search Menu */
@@ -30863,7 +30718,7 @@ select.ui.dropdown {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Video
+ * # Semantic UI 2.2.9 - Video
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31028,7 +30883,7 @@ select.ui.dropdown {
   padding-bottom: 42.85714286%;
 }
 /*!
- * # Semantic UI 2.2.10 - Modal
+ * # Semantic UI 2.2.9 - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31583,7 +31438,7 @@ select.ui.dropdown {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Nag
+ * # Semantic UI 2.2.9 - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31728,7 +31583,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Popup
+ * # Semantic UI 2.2.9 - Popup
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -32539,7 +32394,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Progress Bar
+ * # Semantic UI 2.2.9 - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33116,7 +32971,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Rating
+ * # Semantic UI 2.2.9 - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33393,7 +33248,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Search
+ * # Semantic UI 2.2.9 - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33827,7 +33682,7 @@ a.ui.nag {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Shape
+ * # Semantic UI 2.2.9 - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33986,7 +33841,7 @@ a.ui.nag {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Sidebar
+ * # Semantic UI 2.2.9 - Sidebar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34679,7 +34534,7 @@ html.ios {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Sticky
+ * # Semantic UI 2.2.9 - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34753,7 +34608,7 @@ html.ios {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Tab
+ * # Semantic UI 2.2.9 - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34840,7 +34695,7 @@ html.ios {
         User Overrides
 *******************************/
 /*!
- * # Semantic UI 2.2.10 - Transition
+ * # Semantic UI 2.2.9 - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
